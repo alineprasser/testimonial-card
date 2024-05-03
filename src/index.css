@@ -5,7 +5,9 @@
   --black: #171717;
   --gray: #525252;
   --gradient: linear-gradient(-64deg, #D2D6DB 0%, #F9FAFB 100%);
+  --border: #E6E6E6;
   font-family: "Noto Sans", sans-serif;
+  color: var(--black);
 }
 
 body {
@@ -14,4 +16,46 @@ body {
   box-sizing: border-box;
   background: var(--gradient);
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.card-wrapper {
+  background-color: var(--white);
+  width: 340px;
+  margin-top: 200px;
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid var(--border);
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.1);
+  
+  .card-profile {
+    display: flex;
+    gap: 16px;
+    img {
+      width: 48px;
+      height: 48px;
+    }
+    
+    .card-user-name {
+      h1 {
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 28px;
+      }
+      span {
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--gray);
+      }
+    }
+  }
+
+  p {
+    color: var(--gray);
+  }
+
 }
