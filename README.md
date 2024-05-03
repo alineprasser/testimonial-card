@@ -1,8 +1,11 @@
-# React + Vite
+## Simple User Testimonial Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this challenge, you will develop a card featuring a user testimonial, including a profile image, name, username, and the testimonial body.
 
-Currently, two official plugins are available:
+- **Design fidelity**: Aim to follow the design as closely as possible. All elements in the design should be present, using the specified text color, font size, font weight, spacing, dimensions, etc.
+- **Cross-browser compatibility**: Check that your solution works for major browsers including Chrome, Firefox and Safari.
+- **[Stretch goal] Handle long strings**: In reality, the person's name and testimonial can be extremely long. The UI should be able to accommodate extremely long strings by either wrapping to the next line, truncating, or both.
+- **[Stretch goal] Performance optimization**: Optimize image assets and code for quick load times, ensuring a smooth and responsive user experience.
+- **[Stretch goal] Accessibility and semantics**: Follow best practices for web accessibility, such as using semantic HTML and ARIA roles where necessary and using proper `alt` tags for images.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+_Made for GreatFrontEnd Challenges_
