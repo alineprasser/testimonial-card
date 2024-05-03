@@ -6,7 +6,7 @@ function App() {
       <div className="card-wrapper">
         <div className="card-profile">
           <img
-            src="src/assets/profile-thumbnail.png"
+            src="/profile-thumbnail.png"
             alt="User profile picture"
           />
           <div className="card-user-name">
