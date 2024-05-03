@@ -20,6 +20,21 @@ function App() {
           The variety and depth of creativity are astounding!
         </p>
       </div>
+      <div className="credits">
+        A challenge by&nbsp;
+        <a
+          href="https://www.greatfrontend.com/projects?ref=challenges"
+          target="_blank">
+          GreatFrontEnd Projects
+        </a>
+        . Built by&nbsp;
+        <a
+          href="https://www.greatfrontend.com/projects/u/alineprasser"
+          target="_blank">
+          Aline Prasser :)
+        </a>
+        .
+      </div>
     </div>
   );
 }
